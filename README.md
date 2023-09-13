@@ -1,2 +1,6 @@
-# Regression-Classification-DeepNets
-Regression analysing socio-economic data, multi-class classification of land types from spectral data, and training and adapting deep networks using the Street View House Numbers dataset. As part of CAB420 - Machine Learning.
+# Regression, Classification, and Deep Networks
+Regression analysing socio-economic data from the 1990 US census for various US communities and the number of violent crimes per capita. Training linear, Ridge, and LASSO regression models to predict the number of violent crimes per capita using training, validation, and testing sets, considering the predictive power of the model, model complexity, and model validity. Pre-processing and standardisation of data and ethical concerns discussion is also included.
+
+Training a K-Nearest Neighbours Classifier, Random Forest, and an ensemble of Support Vector Machines to classify land type from spectral data from the use of aerial sensors that captures different spectral reflectance properties of the ground below to understand changing environment. Model hyper-parameters are selected using a grid search operating over the validation set, and the resultant models are evaluated on the testing set and compared.
+
+Designing a Deep Convoluted Neural Network (DCNN) architecture and training a model from scratch using both with and without data augmentation on the Street View House Numbers (SVHN) MNIST-style dataset and comparing the performance of the two models considering accuracy, training time, and inference time using the provided test set.
